@@ -1,5 +1,6 @@
 package com.Mackemania.ee2;
 
+import com.Mackemania.ee2.init.ModCrafting;
 import com.Mackemania.ee2.proxy.CommonProxy;
 import com.Mackemania.ee2.util.Reference;
 
@@ -28,6 +29,8 @@ public class ModInit {
 	@EventHandler
 	public static void init(FMLInitializationEvent event) {
 		
+		ModCrafting.registerCrafting();
+		ModCrafting.registerSmelting();
 	}
 	
 	@EventHandler
