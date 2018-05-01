@@ -1,0 +1,16 @@
+[
+{
+  "modid": "em",
+  "name": "EE2Remake",
+  "description": "EE2 remake.",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Mackemania"],
+  "credits": "Everyone that made the original EE2",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
